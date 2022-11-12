@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+      <style>
+          .divBT1{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+        .divBT2{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+        .divBT3{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+        .divBT4{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+        .divBT5{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+        .divBT7{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            /* margin-left: 355px; */
+            margin-top: 30px;
+        }
+      </style>  
+</head>
+
+<body>
+    <div  class="container">
+
+        <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Tìm số chẵn lẻ nhỏ hơn 100</h3></label>
+            <button id="Result_BT1" class="btn btn-success d-block">
+                Xem kết quả
+            </button>
+            <div id="divBT1"></div>
+        </div>
+
+        <hr>
+
+
+        <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Đếm số chia hết cho 3</h3></label>
+            <button id="Result_BT2" class="btn btn-success d-block">
+                Xem kết quả
+            </button>
+            <div id="divBT2"></div>
+        </div>
+
+        <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Tìm số nguyên dương nhỏ nhất</h3></label>
+            <button id="Result_BT3" class="btn btn-success d-block">
+                Xem kết quả
+            </button>
+            <div id="divBT3"></div>
+        </div>  
+     
+        <hr>
+        <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Tính tổng</h3></label>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input type="text"
+                class="form-control" name="" id="Num1" aria-describedby="helpId" placeholder="">   
+                <label for="" class="form-label"></label>
+                <input type="text"
+                  class="form-control" name="" id="Num2" aria-describedby="helpId" placeholder="">  
+                  <button id="Result_BT4" class="btn btn-success d-block mt-3">
+                    Xem kết quả
+                </button>
+                <div id="divBT4"></div>           
+            </div>
+                 
+          </div>
+          <hr>
+          <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Tính giai thừa</h3></label>
+            <div class="mb-3">
+                <label for="" class="form-label"></label>
+                <input type="text"
+                  class="form-control" name="" id="Num" aria-describedby="helpId" placeholder="">  
+                  <button id="Result_BT5" class="btn btn-success d-block mt-3">
+                    Xem kết quả
+                </button>
+                <div id="divBT5"></div> 
+                    
+            </div>
+                   
+          </div>
+          <hr>
+          <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>Tạo thẻ div</h3></label>
+            <button id="Result_BT6" class="btn btn-success d-block mb-3">
+                Tạo thẻ
+            </button>
+            <div class="mb-3" id="divBT6"></div>
+        </div>
+
+        <hr>
+        <div style="margin:100px 450px;" class="mb-3">
+            <label for="" class="form-label "><h3>In số nguyên tố</h3></label>
+            <div class="mb-3">
+                <label for="" class="form-label"></label>
+                <input type="text"
+                  class="form-control" name="" id="Num_NguyenTo" aria-describedby="helpId" placeholder="">  
+                  <button id="Result_BT7" class="btn btn-success d-block mt-3">
+                    Xem kết quả
+                </button>
+                <div id="divBT7"></div> 
+                    
+            </div>
+                   
+          </div>
+        
+        </div>  
+    
+
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
